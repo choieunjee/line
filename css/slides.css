@@ -1,0 +1,97 @@
+@charset "utf-8";
+
+section>.slides{
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 485px;
+    margin-bottom: 10px;
+}
+
+section>.slides>.slides-container{
+    position: relative;
+}
+
+section>.slides>.slides-container>li{
+    display: block;
+    height: 485px;
+    text-indent: -9999px;
+}
+
+section>.slides>.slides-container>li:nth-child(1){background-image: url(../images/main1.jpg);}
+section>.slides>.slides-container>li:nth-child(2){background-image: url(../images/main2.jpg);}
+section>.slides>.slides-container>li:nth-child(3){background-image: url(../images/main3.jpg);}
+
+/* 페이지네이션 */
+section>.slides>.slides-pagination{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 5%;
+    bottom: 5%;
+    width: 46px;
+    margin-left: -5px;
+}
+
+section>.slides>.slides-pagination>li{
+    width: 12px;
+    background-image: url(../images/slides_pager.png);
+}
+
+section>.slides>.slides-pagination>li.on,
+section>.slides>.slides-pagination>li:hover{
+    background-position: -18px 0;
+}
+
+section>.slides>.slides-pagination>li>a{
+    display: block;
+    height: 12px;
+    text-indent: -9999px;
+}
+
+/* 이전, 다음 */
+section>.slides>.slides-navigation{
+    display: block;
+    position: absolute;
+    top: 50%;
+    width: 42px;
+    height: 42px;
+    text-indent: -9999px;
+    opacity: 0.9;
+    transition: all 0.2s;
+}
+
+section>.slides>.slides-navigation:hover{
+    opacity: 1;
+}
+
+section>.slides>.slides-navigation.slides-prev{
+    left: 0;
+    background-image: url(../images/slide_nav_left.png);
+   
+}
+
+section>.slides>.slides-navigation.slides-next{
+    right: 0;
+    background-image: url(../images/slide_nav_right.png);
+}
+
+section>.slides>.slides-btn{
+    display: block;
+    position: absolute;
+    left: 2%;
+    bottom: 5%;
+    width: 12px;
+    height: 12px;
+    text-indent: -9999px;
+}
+
+section>.slides>.slides-btn.play{
+    background-image: url(../images/btn_play.png);
+}
+
+section>.slides>.slides-btn.stop{
+    display: none;
+    background-image: url(../images/btn_stop.png);
+}
+

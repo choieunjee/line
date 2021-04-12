@@ -1,0 +1,201 @@
+@charset "utf-8";
+
+section>.section-btm{
+    display: flex;
+    flex-flow: row nowrap;
+    margin-top: 5px;
+}
+
+section>.section-btm>ul{
+    margin-right: 20px;
+    border: 1px solid #e5e5e5;
+}
+
+section>.section-btm>ul>.webzine{
+    position: relative;
+    width: 300px;
+    height: 172px;
+    margin: -1px;
+}
+
+section>.section-btm>ul>.webzine>p{
+    margin: 35px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+section>.section-btm>ul>.webzine>.sabo{
+    position: absolute;
+    right: 20px;
+    bottom: 35px;
+    width: 152px;
+    height: 97px;
+    background-image: url(../images/sabo.jpg);
+    background-size: cover;
+    text-indent: -9999px;
+}
+
+section>.section-btm>ul>.webzine>a{
+    position: absolute;
+    left: 28px;
+    bottom: 35px;
+    width: 38px;
+    height: 9px;
+    background-image: url(../images/btn_view_orenge.jpg);
+    text-indent: -9999px;
+}
+
+/* 찾아오시는 길 */
+section>.section-btm>ul>.select{
+    position: relative;
+    width: 300px;
+    height: 142px;
+    margin: 0 auto;
+}
+
+section>.section-btm>ul>.select>p{
+    margin: -5px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+section>.section-btm>ul>.select>form{
+    position: relative;
+    width: 160px;
+    /* height: 30px; */
+    margin-left: 30px;
+    margin-bottom: 3px;
+}
+
+/* 회사 이름 선택 */
+section>.section-btm>ul>.select>form>fieldset{
+    position: relative;
+    width: 160px;
+}
+
+section>.section-btm>ul>.select>form>fieldset>input{
+    border: none;
+    outline: none;
+    background-color: none;
+
+    width: 160px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    text-indent: 8px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+section>.section-btm>ul>.select>form>fieldset>ul{
+    display: none;
+    overflow-y: scroll;
+    width: 149px;
+    height: 90px;
+    border: 1px solid #ccc;
+    border-top: none;
+    background-color: #fff;
+}
+
+section>.section-btm>ul>.select>form>fieldset>ul>li{
+    width: 100%;
+    color: rgb(87, 87, 87);
+    line-height: 30px;
+    text-indent: 9px;
+    font-size: 11px;
+    background-color: #fff;
+}
+
+section>.section-btm>ul>.select>form>fieldset>ul>li>a{
+    display: block;
+    height: 30px;
+}
+
+section>.section-btm>ul>.select>form>fieldset>label{
+    display: block;
+    position: absolute;
+    bottom: 2px;
+    right: 1px;
+    width: 30px;
+    height: 30px;
+    text-indent: -9999px;
+    background-image: url(../images/select_img.gif);
+}
+
+/* .select>form>fieldset.select-name>input:hover~ul{
+    display: block;
+    overflow-y: scroll;
+    height: 90px;
+} */
+
+section>.section-btm>ul>.select>form>fieldset>ul>li:hover,
+section>.section-btm>ul>.select>form>fieldset>ul>li.on{
+    color: #000;
+    background-color: #ccc;
+}
+
+/* 회사 부서 선택 */
+section>.section-btm>ul>.select>form>fieldset.select-div{
+  
+    /* z-index: -1; */
+}
+
+/* .select>form[name=selecCompanyDiv]:hover>.select-div>ul:first-child{
+    display: block;
+} */
+
+
+/* .select>form>fieldset.select-div>input:hover~ul.select-sampyo{
+    display: block;
+    overflow-y: scroll;
+} */
+
+/* 버튼 */
+section>.section-btm>ul>.select>button{
+    border: none;
+    outline: none;
+    background-color: none;
+    
+    position: absolute;
+    top: 95px;
+    right: 25px;
+    width: 73px;
+    height: 69px;
+    color: #fff;
+    background-color: #e37600;
+}
+
+/* 제품시험성적서 */
+section>.section-btm>ul>.testreport{
+    position: relative;
+    width: 300px;
+    height: 172px;
+    margin-right: -4px;
+}
+
+section>.section-btm>ul>.testreport>p{
+    margin: 35px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+section>.section-btm>ul>.testreport>.qc{
+    position: absolute;
+    right: 10px;
+    bottom: 35px;
+    width: 152px;
+    height: 97px;
+    background-image: url(../images/testreport.gif);
+    background-size: cover;
+    text-indent: -9999px;
+}
+
+section>.section-btm>ul>.testreport>a{
+    position: absolute;
+    left: 28px;
+    bottom: 35px;
+    width: 38px;
+    height: 9px;
+    background-image: url(../images/btn_view_orenge.jpg);
+    text-indent: -9999px;
+}

@@ -1,0 +1,71 @@
+@charset "utf-8";
+
+footer{
+    min-width: 940px;
+    height: 100px;
+    margin-top: 50px;
+    background-color: #b9b9b9;
+    border-top: 5px solid #6A6A6A;
+}
+
+footer>.container{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+    padding: 30px 0 20px;
+    font-size: 12px;
+}
+
+footer>.container>.juso{
+    font-size: 11px;
+    padding-bottom: 2px;
+    color: #ffffff;
+}
+
+footer>.container>.reserved{
+    font-size: 11px;
+    color: #dadada;
+}
+
+footer>.container>nav>.fnb{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    right: 7%;
+    top: 30px;
+}
+
+footer>.container>nav>.fnb>li{
+    margin-left: 6px;
+    background-repeat: no-repeat;
+}
+
+footer>.container>nav>.fnb>li:nth-child(1){width: 103px; background-image: url(../images/btn_privacy.gif);}
+footer>.container>nav>.fnb>li:nth-child(2){width: 139px; background-image: url(../images/btn_email_reject.gif);}
+footer>.container>nav>.fnb>li:nth-child(3){width: 98px; background-image: url(../images/btn_family_all.png);}
+footer>.container>nav>.fnb>li:nth-child(4){width: 98px; background-image: url(../images/btn_allmenu_open.png);}
+
+footer>.container>nav>.fnb>li>a{
+    display: block;
+    height: 28px;
+    text-indent: -9999px;
+}
+
+footer>.container>aside{
+    position: absolute;
+    right: 0;
+    top: 30px;
+    width: 53px;
+    height: 38px;
+    text-indent: -9999px;
+    background-image: url(../images/btn_top.gif);
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+footer>.container>address{
+    font-size: 10px;
+    line-height: 20px;
+    text-align: left;
+}
